@@ -10,8 +10,14 @@ body{
     margin-right: 0px;
     padding-left: 25px;
 }
+.footer{
+    margin-right: 0px;
+    padding-left: 25px;
+	display: block;
+}
+
 #map{
-    margin-top:10px !important;
+    margin-top:80px !important;
     height:500px;
 }
 .typeahead{
