@@ -11,6 +11,8 @@ flag,csv_field,alias,type,category,choices,traffic_light,chart,chart_details
 0,settlement_other,Location name,string,Geographic_Information,,,,
 0,site,Site name,string,Geographic_Information,,,,
 0,locale,Site setting,string,Geographic_Information,ass_locale,,,
+0,geopoint_latitude,Latitude,decimal,Geographic_Information,,,,
+0,geopoint_longitude,Longitude,decimal,Geographic_Information,,,,
 0,settlement_type,Site type,string,Camp_Management,settlement_type,,,
 0,number_families,Number of families,integer,Camp_Management,,,,
 0,number_individuals,Number of persons present,integer,Camp_Management,,,,
