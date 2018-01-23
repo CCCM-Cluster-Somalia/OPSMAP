@@ -25,14 +25,17 @@ function toProperCase(s) {
 		function($1){ return $1.toUpperCase(); });
 };
 
+
+
 /* getJsDateFromExcel(d) : returns converted data from EXCEL to javascript format.
  * @param d Integer : date value in EXCEL format (may vary, by default number of days since 01/01/1900).
  */
 function getJsDateFromExcel(d) {
+	let months = [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ];
 	var date = new Date((d - (25567 + 2))*86400*1000);
 	// return format : "DD/MM/YYYY"
 	var DD = date.getDate() > 9 ? date.getDate() : "0" + date.getDate();
 	var MM = date.getMonth() > 9 ? (date.getMonth() + 1) : "0" + (date.getMonth() + 1);
 	var YYYY = date.getFullYear();
-	return DD + '/' + MM + '/' + YYYY;
+	return DD + ' ' + months[MM-1] + ' ' + YYYY;
 }
