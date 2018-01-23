@@ -5,6 +5,8 @@ body{
     padding: 0;
     margin: 0;
     overflow-y: scroll;
+	font-size: 14px;
+    color: #202020;
 }
 .topRow{
     margin-right: 0px;
@@ -12,10 +14,14 @@ body{
 }
 .footer{
     margin-right: 0px;
-    padding-left: 25px;
+   /* padding-left: 25px;*/
 	display: block;
-	margin-bottom:40px;
+	margin-bottom:30px;
+	font-size: 14px;
+    color: #A0A0A0;
+
 }
+
 
 #map{
     margin-top:80px !important;
@@ -72,4 +78,61 @@ body{
     -webkit-box-shadow: none;
             box-shadow: none;
 }
-		
+
+.footerimg {
+	padding-right: 07px;
+	padding-left: 10px;
+}
+
+.legend {
+	margin-right:  10px;
+	padding-top: 10px;
+
+
+}
+.footer-table {
+	width:100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+
+#dtmiom{
+	/*width: 110px;*/
+	padding-left: 7px;
+	padding-left: 7px;
+	padding-left: 7px;
+	height: 30px;
+}
+#reach{
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-left: 7px;
+	/*width: 190px;*/
+	height: 30px;
+}
+#unhcr{
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-left: 7px;
+	/*width: 200px;*/
+	height: 30px;
+}
+
+#nrc{
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-left: 7px;
+	/*width: 200px;*/
+	height: 30px;
+}
+
+#cartong{
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-left: 7px;
+	/*width: 200px;*/
+	height: 30px;
+}
+
