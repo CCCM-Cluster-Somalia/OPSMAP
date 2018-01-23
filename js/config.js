@@ -369,7 +369,7 @@ config.tlRules = {
         if (v === "daily" || v === "twice daily"){
             return "success";
         }
-        else if (v === "weekly"){
+        else if (v === "weekly" || v === "monthly"){
             return "warning";
         }
         else {
