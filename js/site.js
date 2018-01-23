@@ -161,11 +161,11 @@ Papa.parse(u.urlExC, {
 												} else if(z === 13){
 													return 35;
 												} else if(z === 14){
-													return 30;
+													return 10;
 												} else if(z === 15){
-													return 25;
+													return 10;
 												} else if(z === 16){
-													return 20;
+													return 10;
 												}
 												else {
 													return 1;
