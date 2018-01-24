@@ -100,39 +100,38 @@ body{
 
 #dtmiom{
 	/*width: 110px;*/
-	padding-left: 7px;
-	padding-left: 7px;
-	padding-left: 7px;
+	padding-right: 7px;
 	height: 30px;
 }
 #reach{
 	padding-right: 7px;
-	padding-left: 7px;
-	padding-left: 7px;
 	/*width: 190px;*/
 	height: 30px;
 }
 #unhcr{
 	padding-right: 7px;
-	padding-left: 7px;
-	padding-left: 7px;
 	/*width: 200px;*/
 	height: 30px;
 }
 
 #nrc{
 	padding-right: 7px;
-	padding-left: 7px;
-	padding-left: 7px;
 	/*width: 200px;*/
 	height: 30px;
 }
 
 #cartong{
 	padding-right: 7px;
-	padding-left: 7px;
-	padding-left: 7px;
+	/*width: 200px;*/
+	height: 30px;
+}
+#cccmfooter{
+	padding-right: 7px;
 	/*width: 200px;*/
 	height: 30px;
 }
 
+table {
+  border-collapse:separate; 
+  border-spacing: 0 0.5em;
+}
